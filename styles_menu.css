@@ -24,7 +24,7 @@ h2 {
 
 body {
    font-family: sans-serif;
-   background-image: url(file:///Users/danielalippe/Cafe%20Menu/Kartoffelphoto.jpg)
+   background-image: /Menu/Kartoffelphoto.jpg; 
    /*padding:20px;*/
 }
 
