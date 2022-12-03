@@ -1,0 +1,101 @@
+h1,h2,p {
+    text-align: center;
+}
+
+h1,h2 {
+    font-family: Impact, serif;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+
+.established {
+    font-style: italic;
+    font-size: 18px;
+}
+
+body {
+   font-family: sans-serif;
+   background-image: url(file:///Users/danielalippe/Cafe%20Menu/Kartoffelphoto.jpg)
+   /*padding:20px;*/
+}
+
+.menu {
+    max-width: 1000px;
+    width: 80%;
+    background: linear-gradient(180deg, rgb(200,123,255) 80%, rgb(240,100,200));
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    overflow: auto;
+    resize: both; 
+}
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.flavor,.drink {
+    text-align: left;
+    width: 90%;
+}
+.price {
+    text-align: right;
+    width: 10%;
+}
+
+hr {
+    height: 4px;
+    background-color: black;
+    border-color: black;
+}
+
+.bottom-line {
+    margin-top: 25px;
+}
+
+.kartoffelicon, .gluehwein {
+    height: 100px;
+    width: 100px;
+}
+
+img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -25px;
+}
+
+/*FOOTER*/
+footer {
+    font-size: 14px;
+    text-emphasis-color: rgb(127,255,127);
+}
+a {
+    color: black;
+}
+
+a:visited {
+    color: grey;
+}
+
+a:hover {
+    color: brown;
+}
+
+a:active{
+    color:white;
+}
+
+.address {
+    margin-bottom: 5px;
+}
